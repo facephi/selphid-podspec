@@ -42,9 +42,9 @@ Pod::Spec.new do |spec|
   spec.ios.vendored_frameworks = "FPhiSelphIDWidgetiOS.framework"
   spec.public_header_files = "FPhiSelphIDWidgetiOS.framework/Headers/*.h"
   spec.source_files = "FPhiSelphIDWidgetiOS.framework/Headers/*.h"
-  spec.dependency "Firebase/Analytics" , "6.23.0"
-  spec.dependency "Firebase/MLVision", "0.19.0"
-  spec.dependency "Firebase/MLVisionTextModel", "0.19.0"
+  spec.dependency "Firebase/Analytics"
+  spec.dependency "Firebase/MLVision"
+  spec.dependency "Firebase/MLVisionTextModel"
 
 
 
