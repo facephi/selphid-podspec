@@ -39,8 +39,9 @@ Pod::Spec.new do |spec|
   spec.author             = { "Carlos Fernandez" => "cfernandez@facephi.com" }
   spec.source       = { :git => "https://github.com/facephi/selphid-framework.git", :tag => "0.0.7" }
 
+  spec.ios.resources = "fphi-selphid-widget-resources-selphid-1.0.zip"
   spec.ios.vendored_frameworks = "FPhiSelphIDWidgetiOS.xcframework"
-  spec.ios.resources = "fphi-selphid-widget-resources-selphid-1.0.zip" 
+
   # spec.public_header_files = "FPhiSelphIDWidgetiOS.xcframework/Headers/*.h"
   # spec.source_files = "FPhiSelphIDWidgetiOS.framework/Headers/*.h"
   spec.dependency "Firebase/Analytics"
