@@ -44,6 +44,7 @@ Pod::Spec.new do |spec|
 
   # spec.public_header_files = "FPhiSelphIDWidgetiOS.xcframework/Headers/*.h"
   # spec.source_files = "FPhiSelphIDWidgetiOS.framework/Headers/*.h"
+  spec.dependency "FPhiMBWidgetiOS"
   spec.dependency "Firebase/Analytics"
   spec.dependency "Firebase/MLVision"
   spec.dependency "Firebase/MLVisionTextModel"
