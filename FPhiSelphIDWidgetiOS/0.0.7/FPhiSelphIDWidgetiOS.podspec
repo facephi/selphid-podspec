@@ -48,7 +48,7 @@ Pod::Spec.new do |spec|
   spec.dependency "Firebase/Analytics"
   spec.dependency "Firebase/MLVision"
   spec.dependency "Firebase/MLVisionTextModel"
-  #spec.dependency "FPhiMBWidgetiOS"
+  spec.dependency "FPhiMBWidgetiOS"
 
 
 
