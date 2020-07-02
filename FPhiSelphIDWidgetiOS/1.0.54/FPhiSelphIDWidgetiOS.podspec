@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "FPhiSelphIDWidgetiOS"
-  spec.version      = "1.0.54"
+  spec.version      = "1.0.55"
   spec.summary      = "Component for OCR and liveness test"
   spec.ios.deployment_target  = "10.0"
   spec.static_framework = true
