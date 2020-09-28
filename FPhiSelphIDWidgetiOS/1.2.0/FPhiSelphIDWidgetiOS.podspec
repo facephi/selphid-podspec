@@ -27,19 +27,19 @@ Pod::Spec.new do |spec|
   spec.author             = { "Carlos Fernandez" => "cfernandez@facephi.com" }
   spec.source       = { :git => "https://github.com/facephi/selphid-framework.git", :tag => "#{spec.version}" }
 
-  spec.pod_target_xcconfig  = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64','i386' }
-  spec.user_target_xcconfig  = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64','i386' }
-
-# Removed architecture for simulator
   spec.ios.resources = "fphi-selphid-widget-resources-selphid-1.0.zip"
   spec.ios.vendored_frameworks = "FPhiSelphIDWidgetiOS.xcframework"
+
+  # Removed architecture for simulator
+
+  spec.pod_target_xcconfig  = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64','i386' }
+  spec.user_target_xcconfig  = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64','i386' }
 
   spec.dependency "Firebase/Analytics"
   spec.dependency "Firebase/MLVision"
   spec.dependency "Firebase/MLVisionTextModel"
   spec.dependency "FPhiMBWidgetiOS"
   spec.dependency "zipzap"
-
 
 
 end
