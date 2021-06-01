@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "FPhiSelphIDWidgetiOS"
-  spec.version      = "1.8.2"
+  spec.version      = "1.8.3"
   spec.summary      = "Component for OCR and liveness test"
   spec.ios.deployment_target  = "10.0"
   spec.static_framework = true
@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://www.facephi.com"
   spec.license = { :type => "Commercial", 
                    :text => <<-LICENSE
-                   © Facephi 2020. All rights reserved.
+                   © Facephi 2021. All rights reserved.
                 LICENSE
               }
 
