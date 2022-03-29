@@ -40,7 +40,7 @@ Pod::Spec.new do |spec|
   spec.pod_target_xcconfig  = { 'EXCLUDED_ARCHS' => 'armv7' }
   spec.user_target_xcconfig  = { 'EXCLUDED_ARCHS' => 'armv7' }
 
-  spec.dependency "GoogleMLKit/TextRecognition"
+  spec.dependency "GoogleMLKit/TextRecognition", "~> 2.5.0"
   spec.dependency "FPhiMBWidgetiOS", "~> 0.1.5"
   spec.dependency "zipzap"
 
