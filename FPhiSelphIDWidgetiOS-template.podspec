@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.name         = "FPhiSelphIDWidgetiOS"
   spec.version      = "$VERSION_RELEASE"
   spec.summary      = "Component for OCR and liveness test"
-  spec.ios.deployment_target  = "12.0"
+  spec.ios.deployment_target  = "13.0"
   spec.static_framework = true
 
   spec.description  = <<-DESC
@@ -40,9 +40,9 @@ Pod::Spec.new do |spec|
   spec.pod_target_xcconfig  = { 'EXCLUDED_ARCHS' => 'armv7' }
   spec.user_target_xcconfig  = { 'EXCLUDED_ARCHS' => 'armv7' }
 
-  spec.dependency "GoogleMLKit/TextRecognition", "4.0.0"
-  spec.dependency "GoogleMLKit/TextRecognitionKorean", "4.0.0"
-  spec.dependency "GoogleMLKit/TextRecognitionJapanese", "4.0.0"
+  spec.dependency "GoogleMLKit/TextRecognition", "5.0.0"
+  spec.dependency "GoogleMLKit/TextRecognitionKorean", "5.0.0"
+  spec.dependency "GoogleMLKit/TextRecognitionJapanese", "5.0.0"
   spec.dependency "FPhiMBWidgetiOS", "5.20.0"
   spec.dependency "zipzap"
 
